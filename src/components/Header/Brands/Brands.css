@@ -1,0 +1,7 @@
+.brands_box{
+    position: absolute;
+    width: 150px;
+    margin: 124px 10px 0 10px;
+    grid-area: Brands;
+    border-right: 1.7px solid;
+}

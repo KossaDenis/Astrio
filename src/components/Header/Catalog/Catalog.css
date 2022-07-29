@@ -1,0 +1,7 @@
+.catalog_box{
+    grid-area: Catalog;
+    margin: 20px 0 0 40px;
+}
+.catalog_title{
+    font-weight: 400;
+}

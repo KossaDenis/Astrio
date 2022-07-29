@@ -1,0 +1,30 @@
+.header_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1.7px solid;
+    grid-area: Header;
+}
+.logo_box{
+    margin: 0;
+}
+.basket_box{
+    position: relative;
+    margin: 0;
+}
+.basket{
+    width: 50px;
+    cursor: pointer;
+}
+.count_products{
+    font-size: 15px;
+    position: absolute;
+    color: white;
+    padding: 4px;
+    background-color: #F80000;
+    border: 1px solid #F80000;
+    border-radius: 20px;
+    right: -5px;
+}

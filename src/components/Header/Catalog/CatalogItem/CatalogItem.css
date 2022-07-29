@@ -1,0 +1,28 @@
+.CatalogItem_box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.CatalogItem_img{
+    width: 230px;
+    height: 100%;
+    border-radius: 18px;
+}
+.block_of_information{
+    margin-left: 20px; 
+    font-size: 17px;
+}
+.block_of_information > p{
+    margin-bottom: 10px;
+}
+.button_add_basket{
+    cursor: pointer;
+    padding: 10px;
+    background: none;
+    border: 1px solid;
+    transition: .3s;
+}
+.button_add_basket:hover{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    border-radius: 20px;
+}

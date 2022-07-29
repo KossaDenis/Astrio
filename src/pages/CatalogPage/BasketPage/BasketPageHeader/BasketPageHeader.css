@@ -1,0 +1,10 @@
+.basketPage_header_box {
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1.7px solid;
+}
+.basketPage_logo{
+    cursor: pointer;
+    display: flex;
+    width: 180px;
+}

@@ -1,0 +1,28 @@
+.brand_ul {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.brand_li {
+    cursor: pointer;
+    font-weight: 400;
+    padding: 1px;
+}
+
+.brand_li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    height: 2px;
+    width: 0;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.brand_li:hover:after {
+    width: 100%;
+    left: 0;
+}
+
