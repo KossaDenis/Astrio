@@ -2,9 +2,15 @@
     margin: 10px;
     padding-bottom: 10px;
     border-bottom: 1.7px solid;
+    text-align: center;
 }
-.basketPage_logo{
+
+.basketPage_logo {
     cursor: pointer;
     display: flex;
     width: 180px;
+}
+
+.linkLogo {
+    display: inline-block;
 }

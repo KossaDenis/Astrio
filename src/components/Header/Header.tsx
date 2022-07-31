@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import { Link } from 'react-router-dom'
 import './Header.css'
 
 interface Iimages {
@@ -18,8 +19,10 @@ const Header: FC = () => {
         <img className='logo' src={images.logo} alt="logo" />
       </div>
       <div className="basket_box">
-        <img className='basket' src={images.basket} alt="basket" />
-        <span className='count_products'>4</span>
+        <Link to='/basket'>
+          <img className='basket' src={images.basket} alt="basket" />
+          <span className='count_products'>4</span>
+        </Link>
       </div>
     </div>
   )

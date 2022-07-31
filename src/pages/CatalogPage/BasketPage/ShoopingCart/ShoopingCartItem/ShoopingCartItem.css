@@ -1,0 +1,39 @@
+.CartImg {
+    width: 100px;
+}
+
+.itemInfo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.shoopingCartItem {
+    display: grid;
+    grid-template-columns: 500px 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+.cartImg_Box {
+    margin: 0;
+}
+
+.titleClothing_Box {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.trash {
+    cursor: pointer;
+    width: 50px;
+    position: absolute;
+    right: 0;
+}
+
+.Qty {
+    width: 15%;
+    height: 35%;
+}
